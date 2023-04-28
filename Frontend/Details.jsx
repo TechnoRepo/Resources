@@ -10,6 +10,11 @@ const Details = () => {
   const history = useNavigate();
 
   const [blog, setBlog] = useState(null);
+
+  const DeleteBlog = async () => {
+    alert("Deleting the blog");
+  };
+
   return (
     <>
       {blog === null ? (
@@ -45,7 +50,9 @@ const Details = () => {
             </p>
           </div>
           <Comments _id={id} name="Author" comments={[]} />
-          <button onClick={DeleteBlog}>Delete Blog</button>
+          <button id={styles.delete} onClick={DeleteBlog}>
+            Delete Blog
+          </button>
         </div>
       ) : (
         ""
