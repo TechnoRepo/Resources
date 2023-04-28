@@ -1,0 +1,62 @@
+.Details {
+  width: 70%;
+  margin: 3em auto;
+}
+
+.MetaData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.ImageContainer {
+  width: 100%;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.ImageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  /* margin: 1em 0; */
+}
+
+.InfoContainer,
+.InfoContainer p {
+  margin: 1em 0;
+}
+
+.Description {
+  color: grey;
+  margin: 0.5em 0 2em 0;
+  overflow-wrap: anywhere;
+}
+
+.Description {
+  color: grey;
+  margin: 0.5em 0 2em 0;
+  overflow-wrap: anywhere;
+}
+
+.InfoContainer {
+  overflow-wrap: anywhere;
+}
+
+.Details_FirstContainer {
+  display: flex;
+}
+
+.Details_InnerDiv,
+.ImageContainer {
+  flex: 0.5;
+  margin: 0.5em;
+}
+
+.ImageContainer {
+  max-height: 20em;
+}
