@@ -5,6 +5,10 @@ const Comments = ({ _id, comments = [] }) => {
   const comment = useRef();
   const username = localStorage.getItem("username");
 
+  const AddComment = async () => {
+    alert("adding the comment");
+  };
+
   return (
     <div className={classes.Comments}>
       <h3>Comments</h3>
