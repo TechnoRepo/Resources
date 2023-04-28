@@ -3,6 +3,24 @@
   margin: 3em auto;
 }
 
+#delete {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  background-color: rgb(228, 67, 67);
+  cursor: pointer;
+  border: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+#delete:hover {
+  color: rgb(228, 67, 67);
+  background-color: transparent;
+  border: 2px solid rgb(228, 67, 67);
+}
+
 .MetaData {
   display: flex;
   align-items: center;
